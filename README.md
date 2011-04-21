@@ -10,6 +10,8 @@ As discovered by Alasdair Allan Pete Warden ([http://petewarden.github.com/iPhon
 
 This package **only works on Mac OS X**, which is why I am not adding it to CRAN.  Remember, this is is just for fun :)
 
+Also, this was thrown together pretty fast, so please let me know when it breaks.
+
 ## Installation ##
 
 Download the `stalkR_0.01.tar.gz` file above, and run the following command in the R console:
