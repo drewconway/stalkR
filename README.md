@@ -4,13 +4,11 @@
 
 ## Description ##
 
-As discovered by Alasdair Allan Pete Warden [http://petewarden.github.com/iPhoneTracker/](http://petewarden.github.com/iPhoneTracker/), iPhone and iPad devices have been silently recording the location of the device.  This package contains three convenience functions for parsing the location data and visualizing.
-
-This is a simple set of function that will let you parse your own data in an R data frame, as well as another that will produce a basic visualization for you.
+As discovered by Alasdair Allan Pete Warden ([http://petewarden.github.com/iPhoneTracker/](http://petewarden.github.com/iPhoneTracker/)), iPhone and iPad devices have been silently recording the location of the device.  This package contains three convenience functions for parsing the location data and visualizing it.
 
 ## Warning ##
 
-This package with **only work on Mac OS X**, which is why I am not adding it to CRAN.  Remember, this is is just for fun :)
+This package **only works on Mac OS X**, which is why I am not adding it to CRAN.  Remember, this is is just for fun :)
 
 ## Installation ##
 
