@@ -4,7 +4,7 @@
 
 ## Description ##
 
-As discovered by Alasdair Allan Pete Warden ([http://petewarden.github.com/iPhoneTracker/](http://petewarden.github.com/iPhoneTracker/)), iPhone and iPad devices have been silently recording the location of the device.  This package contains three convenience functions for parsing the location data and visualizing it.
+As discovered by Alasdair Allan and Pete Warden ([http://petewarden.github.com/iPhoneTracker/](http://petewarden.github.com/iPhoneTracker/)), iPhone and iPad devices have been silently recording the location of the device.  This package contains three convenience functions for parsing the location data and visualizing it.
 
 ## Warning ##
 
