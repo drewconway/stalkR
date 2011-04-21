@@ -30,7 +30,7 @@ To run the code, you need only two bits of information:
 In my case, we can visualize my travel in Maryland, MD, USA with the following commands:
 
     > library(stalkR)
-    > drews.locs<-get.mylocations("my.name", "my.device")
+    > drews.locs<-get.mylocations("agconway", "Drew Conway's iPhone")
     > viz.locations(drews.locs, "state", "maryland")
 
 ![Maryland Travel](http://www.drewconway.com/zia/wp-content/uploads/2011/04/my_maryland.png)
