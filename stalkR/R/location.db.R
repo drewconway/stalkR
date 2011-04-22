@@ -1,5 +1,11 @@
 location.db<-
 function(user.name, device.name) {
+		if (as.numeric(R.version$minor) < 13) {
+			list.dirs <- function(path) {
+				files <- list.files(path, full.names = TRUE)
+				files[file_test('-d', files)]
+			}
+		}
     # Locate mobile sync data files that were modified most recently and contain data on 
     # the device listed above.
 
