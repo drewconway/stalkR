@@ -2,7 +2,17 @@
 
 *stalkR is a set of simple convenience functions in R for exploring your iPhone or iPad location data*
 
-*Last update: 2011-04-22*
+*Last update: 2011-04-25*
+
+ChangeLog:
+
+* Removed dependency on R 2.13 list.dirs() function
+
+* Fixed bug on weird apostrophe's on my iDevice names
+
+* Added NAMESPACE
+
+* Added ChangeLog 
 
 ## Description ##
 
