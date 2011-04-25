@@ -29,7 +29,7 @@ For more information on this data and how it was discovered, see http://peteward
 }
 \examples{
 library(stalkR)
-my.locs<-get.mylocations("agconway","Drew Conway's iPhone")
+my.locs<-get.mylocations("mike","Mike Dewar's iPhone")
 viz.locations(my.locs, "state", "new york")
 }
 \keyword{package}

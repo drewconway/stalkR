@@ -42,7 +42,7 @@ Drew Conway
 }
 \examples{
 library(stalkR)
-my.locs<-get.mylocations("agconway","Drew Conway's iPhone")
+my.locs<-get.mylocations("mike","Mike Dewar's iPhone")
 summary(my.locs)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

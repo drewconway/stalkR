@@ -42,8 +42,8 @@ For more information on working with SQLite data bases see the RSQLite documenta
 }
 \examples{
 library(stalkR)
-conn<-location.db("agconway","Drew Conway's iPhone")
-dbListTables(location.db("agconway","Drew Conway's iPhone"))
+conn<-location.db("mike","Mike Dewar's iPhone")
+dbListTables(location.db("mike","Mike Dewar's iPhone"))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

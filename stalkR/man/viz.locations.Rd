@@ -45,7 +45,7 @@ Drew Conway
 }
 \examples{
 library(stalkR)
-my.locs<-get.mylocations("agconway", "Drew Conway's iPhone")
+my.locs<-get.mylocations("mike", "Mike Dewar's iPhone")
 viz.locations(my.locs, "state", "new york")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
