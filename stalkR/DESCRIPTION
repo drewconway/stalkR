@@ -1,7 +1,7 @@
 Package: stalkR
 Type: Package
 Title: Convenience functions for parsing iPhone and iPad location data and visualizing.
-Version: 0.01
+Version: 0.02
 Date: 2011-04-21
 Author: Drew Conway
 Maintainer: Drew Conway <drew.conway@nyu.edu>
