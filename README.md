@@ -20,7 +20,7 @@ As discovered by Alasdair Allan and Pete Warden ([http://petewarden.github.com/i
 
 ## Warning ##
 
-This package **only works on Mac OS X and requires R version 2.13**, which is why I am not adding it to CRAN.  Remember, this is is just for fun :)
+This package **only works on Mac OS X**, which is why I am not adding it to CRAN.  Remember, this is is just for fun :)
 
 Also, this was thrown together pretty fast, so please let me know when it breaks.
 
