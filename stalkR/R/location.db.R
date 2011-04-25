@@ -5,12 +5,16 @@ list.dirs <- function(path=".", pattern=NULL, all.dirs=FALSE, ignore.case=FALSE)
 
 location.db<-
 function(user.name, device.name) {
+		list.dirs <- function(path) {
+			files <- list.files(path, full.names = TRUE)
+			files[file_test('-d', files)]
+		}
     # Locate mobile sync data files that were modified most recently and contain data on 
     # the device listed above.
 
     # Get folders, and order by modication date
     mobile.files<-list.dirs(paste("/Users/",user.name,"/Library/Application Support/MobileSync/Backup/",sep=""))
-    mod.dates<-do.call(rbind, lapply(mobile.files[-1], file.info))
+    mod.dates<-do.call(rbind, lapply(mobile.files, file.info))
     mod.dates<-tryCatch(mod.dates[with(mod.dates, order(mtime)),], error=function(e) return(FALSE))
    
     if(class(mod.dates)=="logical") {
