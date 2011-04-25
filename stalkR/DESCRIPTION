@@ -1,11 +1,11 @@
 Package: stalkR
 Type: Package
 Title: Convenience functions for parsing iPhone and iPad location data and visualizing.
-Version: 0.01
-Date: 2011-04-21
+Version: 0.03
+Date: 2011-04-25
 Author: Drew Conway
 Maintainer: Drew Conway <drew.conway@nyu.edu>
-Depends: XML, RSQLite, ggplot2, maps
+Depends: XML, RSQLite, ggplot2, maps, mapproj
 Description: As discovered by Alasdair Allan Pete Warden (http://petewarden.github.com/iPhoneTracker/), iPhone and iPad devices have been silently recording the location of the device.  This package contains three convenience functions for parsing the location data and visualizing.
 License: BSD                                               
 LazyLoad: yes
