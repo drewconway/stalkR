@@ -1,0 +1,9 @@
+2011-04-25
+
+    * Removed dependency on R 2.13 list.dirs() function
+    
+    * Fixed bug on weird apostrophe's on my iDevice names
+    
+    * Added NAMESPACE
+    
+    * Added ChangeLog
