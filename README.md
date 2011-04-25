@@ -26,9 +26,9 @@ Also, this was thrown together pretty fast, so please let me know when it breaks
 
 ## Installation ##
 
-Download the `stalkR_0.02.tar.gz` file above, and run the following command in the R console:
+Download the `stalkR_0.03.tar.gz` file above, and run the following command in the R console:
 
-    > install.packages("stalkR_0.02.tar.gz", repos=NULL, type="source")
+    > install.packages("stalkR_0.03.tar.gz", repos=NULL, type="source")
 
 Remember: you must be in the same working directory as where you saved the source.
 
